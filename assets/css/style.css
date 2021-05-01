@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+nav{
+    background-color:rgba(28, 144, 221, 0.5);
+}
+main{
+    width:70%;
+    background-color: aquamarine;
+    height: 300px;
+    display:inline-block
+}
+
+aside{
+    width: 30%;
+    background-color: bisque;
+    height: 300px;
+    display:inline-block
+}
+
+header{
+    height: 75px;
+}
+
+header div{
+    display:inline-block;
+}
+
+.portfolio{
+    width: 85%;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.logo{
+    width: 15%;
+}
+
+.logo img{
+    width: 100%;
+}
+
+
+.nav-principal ul li{
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.nav-principal ul li a{
+    text-decoration: none;
+}
+
+.nav-principal ul {
+    text-align: center;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
