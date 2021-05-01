@@ -1,11 +1,14 @@
 body{
     margin:0;
     padding:0;
+    width: 500px;
+    margin: auto;
 }
 
 nav{
     background-color:rgba(28, 144, 221, 0.5);
 }
+
 main{
     width:70%;
     background-color: aquamarine;
@@ -24,6 +27,12 @@ header{
     height: 75px;
 }
 
+footer{
+    height: 50px;
+    background-color: black;
+    margin-bottom: 5px;
+}
+
 header div{
     display:inline-block;
 }
@@ -36,6 +45,10 @@ header div{
 
 .logo{
     width: 15%;
+    background-image: url("/assets/img/calmanos.jpg");
+    background-size: cover;
+    height: 100%;
+
 }
 
 .logo img{
