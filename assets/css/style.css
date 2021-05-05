@@ -3,24 +3,32 @@ body{
     padding:0;
     width: 500px;
     margin: auto;
+    font-family: 'Share Tech Mono', monospace;
 }
 
 nav{
     background-color:rgba(28, 144, 221, 0.5);
+    border-radius: 15px;
 }
 
 main{
     width:70%;
     background-color: aquamarine;
-    height: 300px;
-    display:inline-block
+    height: 500px;
+    display:inline-block;
+    vertical-align: middle;
 }
 
 aside{
     width: 30%;
     background-color: bisque;
-    height: 300px;
-    display:inline-block
+    height: 500px;
+    display:inline-block;
+    vertical-align: middle;
+}
+
+section{
+    padding: 0 5px;
 }
 
 header{
@@ -33,9 +41,45 @@ footer{
     margin-bottom: 5px;
 }
 
-header div{
+header div {
     display:inline-block;
 }
+
+
+/* Estilos del article */
+
+.article-header{
+    height: auto;
+}
+
+.article-div p{
+    font-size: 8px;
+    text-align: justify;
+    padding: 3px;
+}
+
+.article-div{
+    display:inline-block;
+    width:75%;
+    vertical-align: middle;
+}
+
+.div-img{
+    display:inline-block;
+    width:25%;
+    vertical-align: middle;
+}
+
+.article-footer{
+    height: 50px;
+    background-color: aquamarine;
+    margin-bottom: auto;
+}
+
+/* fin de estilos del article */
+
+
+
 
 .portfolio{
     width: 85%;
@@ -51,14 +95,13 @@ header div{
 
 }
 
-.logo img{
+.logo img, .article-img{
     width: 100%;
 }
 
 
 .nav-principal ul li{
     display: inline-block;
-    margin-right: 25px;
 }
 
 .nav-principal ul li a{
@@ -66,7 +109,13 @@ header div{
 }
 
 .nav-principal ul {
-    text-align: center;
+    text-transform: none;
     padding-bottom: 3px;
     padding-top: 3px;
+    font-size: 13px;
+}
+
+.nav-principal ul:hover {
+    text-transform: uppercase;
+    font-size: 13px;
 }
