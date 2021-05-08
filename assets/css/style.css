@@ -12,7 +12,7 @@ nav{
 }
 
 main{
-    width:70%;
+    width:80%;
     background-color: aquamarine;
     height: 500px;
     display:inline-block;
@@ -20,7 +20,7 @@ main{
 }
 
 aside{
-    width: 30%;
+    width: 20%;
     background-color: bisque;
     height: 500px;
     display:inline-block;
@@ -87,11 +87,17 @@ header div {
     vertical-align: bottom;
 }
 
-.logo{
-    width: 15%;
+#logo{
+    width: 75px;
+    height: 75px;
     background-image: url("/assets/img/calmanos.jpg");
     background-size: cover;
-    height: 100%;
+    /* font-size: 0; */
+    overflow: hidden;
+    text-indent: -400px;
+    display: inline-block;
+    margin: 0;
+
 
 }
 
@@ -118,4 +124,20 @@ header div {
 .nav-principal ul:hover {
     text-transform: uppercase;
     font-size: 13px;
+}
+
+.letras{
+    font-size:8px;
+    display: inline-block;
+}
+
+.relative1{
+    width: 10%;
+    overflow:auto;
+    vertical-align: middle;
+}
+
+.relative2{
+    width: 90%;
+    vertical-align: middle;
 }
