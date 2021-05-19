@@ -115,10 +115,22 @@ header div {
     float:left;
 }
 
+#green-container:hover{
+
+    transform: rotate(25deg);
+    transform-origin: left bottom;
+
+}
+
 #pink-container{
     background-color: pink;
     height: 75px;
     float:left;
+}
+
+#pink-container:hover{
+    transform: translate(20px, -15px);
+    transform-origin: right bottom;
 }
 
 #orange-container{
@@ -127,8 +139,18 @@ header div {
     float:left;
 }
 
+#orange-container:hover{
+    transform: scale(0.8, .7);
+    transform-origin: left center;
+}
+
 #blue-container{
     background-color: blue;
+}
+
+#blue-container:hover{
+    transform: skew(45deg, -45deg);
+    transform-origin: right top;
 }
 
 /* Propiedades para posicionamiento */
