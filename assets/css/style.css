@@ -131,6 +131,54 @@ header div {
     background-color: blue;
 }
 
+/* Propiedades para posicionamiento */
+
+#position-1{
+    /* aplica la propiedad float */
+    background-color: blue;
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+    display: inline-block;
+    position: static;
+
+}
+
+#position-2{
+    /* aplica la propiedad float */
+    background-color: red;
+    width: 75px;
+    height: 75px;
+    position: relative;
+    float: right;
+   
+    
+}
+
+#position-3{
+    /* no aplica la propiedad float */
+    background-color: yellow;
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    position: absolute;
+
+    
+}
+
+#position-4{
+    /* no aplica la propiedad float */
+    background-color: black;
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;    
+}
+
 .logo img, .article-img{
     width: 100%;
 }
