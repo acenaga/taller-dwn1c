@@ -1,3 +1,7 @@
+html{
+    font-size: 16px 
+}
+
 body{
     margin:0;
     padding:0;
@@ -53,7 +57,7 @@ header div {
 }
 
 .article-div p{
-    font-size: 8px;
+    font-size: 0.5rem;
     text-align: justify;
     padding: 3px;
 }
@@ -101,6 +105,32 @@ header div {
 
 }
 
+#float-container{
+    overflow: hidden;
+}
+
+#green-container{
+    background-color: green;
+    height: 75px;
+    float:left;
+}
+
+#pink-container{
+    background-color: pink;
+    height: 75px;
+    float:left;
+}
+
+#orange-container{
+    background-color: orange;
+    height: 75px;
+    float:left;
+}
+
+#blue-container{
+    background-color: blue;
+}
+
 .logo img, .article-img{
     width: 100%;
 }
@@ -118,16 +148,16 @@ header div {
     text-transform: none;
     padding-bottom: 3px;
     padding-top: 3px;
-    font-size: 13px;
+    font-size: 0.8rem;
 }
 
 .nav-principal ul:hover {
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 0.8rem;
 }
 
 .letras{
-    font-size:8px;
+    font-size: 0.5rem;
     display: inline-block;
 }
 
@@ -140,4 +170,8 @@ header div {
 .relative2{
     width: 90%;
     vertical-align: middle;
+}
+
+.em-use{
+    font-size: 1em;
 }
